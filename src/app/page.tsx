@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button'
+import { Hero } from '@/components/sections/hero'
+import { Navbar } from '@/components/sections/navbar'
 
 export default function HomePage() {
-return (
-<main className="min-h-screen flex items-center justify-center">
-<Button>
-ابدئي الآن
-</Button>
-</main>
-)
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+    </main>
+  )
 }
